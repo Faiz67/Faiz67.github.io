@@ -1,3 +1,10 @@
+body{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://ffwallpaper.com/wallup/synthwave/synthwave-19.jpg);
+    background-size: cover;
+}
 .home-page{
     padding-top: 5%;
     padding-left: 10%;
@@ -11,4 +18,28 @@
 }
 .headline{
     align-self: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin: 0;
+}
+.navbar>li{
+    list-style: none;
+    padding: 20px;
+    
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 8px;
+  }
+.navbar>li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.2s;;
 }
