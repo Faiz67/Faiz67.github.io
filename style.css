@@ -1,0 +1,14 @@
+.home-page{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.src{
+    border-radius: 400px;
+}
+.headline{
+    align-self: center;
+}
