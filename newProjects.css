@@ -1,0 +1,60 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Trirong", serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(85, 85, 85);
+    padding: 0;
+    margin: 0;
+}
+.navbar>li{
+    list-style: none;
+    padding: 20px;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 8px;
+}
+
+.navbar>li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.2s;;
+}
+
+.p1{
+    display: flex;
+    margin: 5% 10% 100px;
+    padding: 0% 30px;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(./pngtree-clean-energy-green-recycling-bulb-poster-background-image_135256.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* transform: scale(1.2); */
+}
+
+/* .p1:hover{
+    transform: scale(1.0);
+} */
+
+.p2{
+    display: flex;
+    margin: 0% 10% 100px;
+    padding: 0% 30px;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(./IOT-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* transform: scale(1.2); */
+}

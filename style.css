@@ -1,29 +1,46 @@
 body{
     position: absolute;
+    font-family: "Trirong", serif;
     padding: 0;
     margin: 0;
-    background-image: url(https://ffwallpaper.com/wallup/synthwave/synthwave-19.jpg);
-    background-size: cover;
+    height: 100%;
+    
 }
+
+/* .bg-image{
+    background-image: url(https://ffwallpaper.com/wallup/synthwave/synthwave-19.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+} */
 .home-page{
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
     justify-content: space-evenly;
+    color: white;
+    text-shadow: 3px 3px 3px #ababab;
+    
 }
 
 .src{
-    border-radius: 400px;
+    border-radius: 300px;
+    padding-left: 20px;
+
+
 }
 .headline{
+    font-weight: bold;
     align-self: center;
 }
 
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(243, 104, 104);
     padding: 0;
     margin: 0;
 }
@@ -42,4 +59,23 @@ a {
 .navbar>li:hover{
     background-color: rgba(0, 0, 0, 0.5);
     transition: 0.2s;;
+}
+
+th,td{
+    border: 2px solid black;
+    padding: 15px;
+    text-align:center;
+}
+
+.table{
+    padding: 5% 15%;
+    color: white;
+}
+
+.pname{
+    font-weight: bold;
+}
+
+tbody{
+    background-color: rgba(0, 0, 0, 0.2);
 }
